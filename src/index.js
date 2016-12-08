@@ -18,6 +18,5 @@ ReactDOM.render((
       <Route path="/AboutPage" component={AboutPage}/>
     </Route>
     <Route path="*" component={errorPage}/>
-
   </Router>
 ), document.getElementById('root'))
