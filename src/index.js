@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Router, Route, hashHistory, IndexRoute } from 'react-router';
+import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import App from './App';
 import HomePage from './HomePage';
 import StoresPage from './StoresPage';
@@ -10,7 +10,7 @@ import AboutPage from './AboutPage';
 import errorPage from './404Error';
 
 ReactDOM.render((
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={HomePage}/>
       <Route path="/StoresPage" component={StoresPage}/>
