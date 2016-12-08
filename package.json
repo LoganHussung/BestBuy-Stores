@@ -2,7 +2,7 @@
   "name": "BestBuy-Stores",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://loganhussung.github.io/",
+  "homepage": "http://loganhussung.github.io/BestBuy-Stores",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "0.8.1"
