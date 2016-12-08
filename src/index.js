@@ -17,6 +17,6 @@ ReactDOM.render((
       <Route path="stores/:storeId" component={SingleStore}/>
       <Route path="/AboutPage" component={AboutPage}/>
     </Route>
-    <Route path="*" component={errorPage}/>
+    {/* <Route path="*" component={errorPage}/> */}
   </Router>
 ), document.getElementById('root'))
