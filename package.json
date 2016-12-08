@@ -2,6 +2,7 @@
   "name": "BestBuy-Stores",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://loganhussung.github.io/BestBuy-Stores",
   "devDependencies": {
     "react-scripts": "0.8.1"
   },
